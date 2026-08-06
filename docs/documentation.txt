@@ -6,3 +6,8 @@ Today I created a professional/ enterprise level directories. I began with writi
 kubernetes, and so on. And also I created files like .gitignore and README.md and pushed all of these in my github repo. I also did looked at my git log by using CLI : git logs --oneline
 
 Why I did this: Because it makes a habit of creating a folder in a well organized way. 
+
+Day-2:
+Here on this day, I created various files like architecture.md, setup-guide.md, folder-structure.md and roadmap.md.
+
+Why I did this: Because it helps to clearify and guide the developers to set things up for the project.
