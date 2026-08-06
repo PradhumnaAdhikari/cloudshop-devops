@@ -1,11 +1,16 @@
-#OS AND Editors
 
+
+.node_modules/
+
+.dist/
+coverage/
 .vscode/
-.DS_STORE
+.idea/
+#.DS_STORE
 
-.log/
+*.log/
 .env
 .*env
 
-.terraform/
+#.terraform/
 
