@@ -1,0 +1,11 @@
+#OS AND Editors
+
+.vscode/
+.DS_STORE
+
+.log/
+.env
+.*env
+
+.terraform/
+
