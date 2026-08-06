@@ -1,0 +1,8 @@
+Hey, I began my devOps project from today onwards. This isn't a professional docs at all but my own personal way of writing a documentation.
+Here I will keep a record of my day to day tasks so that it will be helpful for me later in the future.
+
+Day-1:
+Today I created a professional/ enterprise level directories. I began with writing the name of folder as cloudshop-devops and created multiple directories like terraform, app, docker,
+kubernetes, and so on. And also I created files like .gitignore and README.md and pushed all of these in my github repo. I also did looked at my git log by using CLI : git logs --oneline
+
+Why I did this: Because it makes a habit of creating a folder in a well organized way. 
