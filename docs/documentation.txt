@@ -11,3 +11,13 @@ Day-2:
 Here on this day, I created various files like architecture.md, setup-guide.md, folder-structure.md and roadmap.md.
 
 Why I did this: Because it helps to clearify and guide the developers to set things up for the project.
+
+
+Day-3:
+Here on this day, I created a set-up.sh file. It contained a automation script for creating directories in the project. Initially I completed that script using the else-if condition but later
+figured out that using if-else requires multiple execution of that file. Therefore, to overcome multiple running of code I prefered using the for loop.
+
+Why I did this: Because sometimes all of the directories couldn't be cloned from directories for storing db,logs and other system files with different user name/hostname we use this scripts file.
+
+Day-4:
+
