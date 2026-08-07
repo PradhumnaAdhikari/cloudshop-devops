@@ -20,4 +20,7 @@ figured out that using if-else requires multiple execution of that file. Therefo
 Why I did this: Because sometimes all of the directories couldn't be cloned from directories for storing db,logs and other system files with different user name/hostname we use this scripts file.
 
 Day-4:
+I learned about application deployment in nginx by copying the file from /app/index.html to web root "/var/www/html/index.html". And viewing it by using curl http://localhost. Here, I also learned about Nginx
+which is an Reverse Proxy Server or simply a web server and serves static html content.
 
+Why I did this: Because it teaches me how to deploy an application using /var/www/html folder on our localhost server using web root directories.
