@@ -5,22 +5,31 @@ Day-1:
 Today I created a professional/ enterprise level directories. I began with writing the name of folder as cloudshop-devops and created multiple directories like terraform, app, docker,
 kubernetes, and so on. And also I created files like .gitignore and README.md and pushed all of these in my github repo. I also did looked at my git log by using CLI : git logs --oneline
 
-Why I did this: Because it makes a habit of creating a folder in a well organized way. 
+	Why I did this: Because it makes a habit of creating a folder in a well organized way. 
 
 Day-2:
 Here on this day, I created various files like architecture.md, setup-guide.md, folder-structure.md and roadmap.md.
 
-Why I did this: Because it helps to clearify and guide the developers to set things up for the project.
+	Why I did this: Because it helps to clearify and guide the developers to set things up for the project.
 
 
 Day-3:
 Here on this day, I created a set-up.sh file. It contained a automation script for creating directories in the project. Initially I completed that script using the else-if condition but later
 figured out that using if-else requires multiple execution of that file. Therefore, to overcome multiple running of code I prefered using the for loop.
 
-Why I did this: Because sometimes all of the directories couldn't be cloned from directories for storing db,logs and other system files with different user name/hostname we use this scripts file.
+	Why I did this: Because sometimes all of the directories couldn't be cloned from directories for storing db,logs and other system files with different user name/hostname we use this scripts file.
 
 Day-4:
 I learned about application deployment in nginx by copying the file from /app/index.html to web root "/var/www/html/index.html". And viewing it by using curl http://localhost. Here, I also learned about Nginx
 which is an Reverse Proxy Server or simply a web server and serves static html content.
 
-Why I did this: Because it teaches me how to deploy an application using /var/www/html folder on our localhost server using web root directories.
+	Why I did this: Because it teaches me how to deploy an application using /var/www/html folder on our localhost server using web root directories.
+
+Day-5:
+Here on this day, I learned about Dockerfile, how we containarize it and how we build, run, start, stop and delete an image and a container.
+We use commands like docker build -f docker/Dockerfile -t cloudshop:1.0 .
+		 and docker run -d --name:cloudShop -p 8080:80 cloudshop:1.0
+		 and docker ps to see running containers, docker start/stop container id/name to start/stop the container
+		 and docker rm cloudShop
+
+	Why I did this: Because it gave me a fundamental knowledge regarding the containerization of an application.
